@@ -1,10 +1,22 @@
-![GitHub Logo](http://www.heise.de/make/icons/make_logo.png)
+**Ich habe das Maker-Projekt "Taupunktlüfter" (siehe unten) für meine Zwecke etwas verändert:**
 
-Maker Media GmbH
+- Unter anderem nutze ich einen Seeeduino-Nano.
+  Der ist recht kompakt, hat aber noch einen Stecker auf der Oberseite, dort kann ein I2C-LCD direkt angeschlossen werden.
+  
+- Es wird ein Zähler angezeigt, für die Anzahl der Schaltvorgänge.
+
+- Es wird angezeigt, wie lange der letzte Schaltvorgang her ist.
+
+- Die Serielle-Ausgabe habe ich über ein #ifdef aus dem Code genommen.
+
+
+
+
 
 ***
 
 # Taupunktlüfter
+Maker Media GmbH
 
 **Lüften ist die beste und billigste Maßnahme gegen feuchte Keller  – jedenfalls, wenn man es richtig macht und sich nicht von außen zusätzliche Nässe ins Gewölbe holt. Bei unserem Projekt behält ein Arduino Nano die aktuellen Taupunkte drinnen und draußen rund um die Uhr im Auge und legt durch gezieltes Lüften den Keller trocken.**
 
